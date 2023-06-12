@@ -1,0 +1,10 @@
+### Check the server
+GET http://localhost:3000/ HTTP/1.1
+
+### Parse a url
+POST http://localhost:3000/parse HTTP/1.1
+Content-Type: application/json
+
+{
+  "domainName": "https://test.com"
+}
